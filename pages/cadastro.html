@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<meta name="viewport" content ="width=device-width,initial-scale=1"/>
+		<title>Cadastro</title>
+		<link rel="stylesheet" href="../css/cadastro.css">
+		<script type = "text/javascript" src="../js/cadastro.js"></script>
+	</head>
+	<body>
+		<br>
+		<div class="moldura centralizar" id="abaCadastro">
+			<div class="titulo">
+				<p>Criar seu cadastro</p>
+			</div><br>
+			<div class="conteudo">
+				<div class="textoAvisos" id="erroCadastrar"></div>
+				<div class="alinhado">
+					<p class="obrigatorio">*</p>
+					<p>Nome Completo</p>
+				</div>
+				<div>
+					<input type="text" id="inputNome">
+				</div><br>
+				<div class="alinhado">
+					<p class="obrigatorio">*</p>
+					<p>Data Nascimento</p>
+				</div>
+				<div>
+					<input type="date" id="inputNascimento">
+				</div><br>
+				<div class="alinhado">
+					<p class="obrigatorio">*</p>
+					<p>CPF</p>
+				</div>
+				<div>
+					<input type="text" id="inputCPF">
+				</div><br>
+				<div class="alinhado">
+					<p class="obrigatorio">*</p>
+					<p>Telefone</p>
+				</div>
+				<div>
+					<input type="phone" id="inputTelefone">
+				</div><br>
+				<div class="alinhado">
+					<p class="obrigatorio">*</p>
+					<p>Email</p></div>
+				<div>
+					<input type="text" id="inputEmail">
+				</div><br>
+				<div class="alinhado">
+					<p class="obrigatorio">*</p>
+					<p>Senha</p>
+				</div>
+				<div>
+					<input type="password" id="inputSenha">
+				</div><br>
+				<div id="reCaptcha" class="reCaptcha"></div><br>
+				<div>
+					<button class="botaoEstilo1" id="botaoCadastro">Criar</button>
+				</div><br>
+				<p class="link cursorHover" onclick="abrirLogin()" id="abrirLogin">Realizar o login</p><br>
+				<br>
+			</div>
+		</div>
+	</body>
+</html>

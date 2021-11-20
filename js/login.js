@@ -1,3 +1,3 @@
 function abrirCadastro(){
-    window.location.href="cadastro.html";
+    window.location.href="pages/cadastro.html";
 }
