@@ -1,0 +1,72 @@
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top:0;
+    left:0;
+    background-color: #E0C1FF;
+    overflow: hidden;
+    display: flex;
+    margin: 0px;
+    padding:10px 0 10px 0;
+    
+    font-size:XX-large;
+}
+
+.header .fa-users{
+    margin-left: auto;
+}
+.header input{
+    width: 50%;
+}
+.header .fa-comments{
+    margin-left: auto;
+}
+
+.sidebar{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color: #E0C1FF;
+    overflow: hidden;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar span{
+    cursor: pointer;
+    padding: 20px;
+    font-size:large;
+}
+.feed{
+    margin-top: 20px;
+    margin-left: 160px;
+    display:flex;
+    display: flex;
+    flex-direction: column;
+}
+.feed .post{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20PX;
+    border-bottom: solid;
+}
+
+.feed img{
+    width: 600px;
+    height: 600px;
+}
+
+
