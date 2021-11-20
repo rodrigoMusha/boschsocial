@@ -1,39 +1,40 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <script type="text/javascript" src="./js/login.js"></script>
+</head>
 
-	<head>
-		<meta charset = "utf-8">
-		<meta name="viewport" content ="width=device-width,initial-scale=1"/>
-		<title>Login</title>
-		<link rel="stylesheet" href="./css/login.css">
-		<script type = "text/javascript" src="./js/login.js"></script>
-	</head>
-	<body>
-		<br>
-		<div class="moldura centralizar mostrar" id="abaLogin">
-			<div class="titulo">
-				<p>Bem vindo</p>
-				<p>Realize seu Login<p>
-			</div>
-			<div class="conteudo">
-				<div class="textoAvisos" id="erroLogar"></div>
-				<div>
-					<p class="tituloInput">Email</p>
-				</div>
-				<div>
-					<input type="text" id="localEmail" placeholder="Digite seu email">
-				</div>
-				<div>
-					<p class="tituloInput">Senha</p>
-				</div>
-				<div>
-					<input type="password" id="localSenha" placeholder="Digite sua senha">
-				</div>
-				<div>
-					<p class="link direita cursorHover"  id="esqueceuSenha" >Esqueceu sua senha?</p>
-				</div><br><br>
-				<div>
-					<button class="botaoEstilo1" id="botaoLogar">Logar</button>
-				</div><br>
-				<p class="link cursorHover" onclick="abrirCadastro()" id="abrirCadastro">Crie sua conta</p><br>
-			</div>
-		</div>
-	</body>
+<body>
+    <br>
+    <div class="moldura centralizar mostrar" id="abaLogin">
+        <div class="titulo">
+            <p>Bem vindo</p>
+            <p>Realize seu Login
+            <p>
+        </div>
+        <div class="conteudo">
+            <div class="textoAvisos" id="erroLogar"></div>
+            <div>
+                <p class="tituloInput">Email</p>
+            </div>
+            <div>
+                <input type="text" id="localEmail" placeholder="Digite seu email">
+            </div>
+            <div>
+                <p class="tituloInput">Senha</p>
+            </div>
+            <div>
+                <input type="password" id="localSenha" placeholder="Digite sua senha">
+            </div>
+            <div>
+                <p class="link direita cursorHover" id="esqueceuSenha">Esqueceu sua senha?</p>
+            </div><br><br>
+            <div>
+                <button onclick="abrirFeed()" class="botaoEstilo1" id="botaoLogar">Logar</button>
+            </div><br>
+            <p class="link cursorHover" onclick="abrirCadastro()" id="abrirCadastro">Crie sua conta</p><br>
+        </div>
+    </div>
+</body>
